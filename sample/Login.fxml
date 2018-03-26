@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #04171F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+   <children>
+      <Button blendMode="ADD" layoutX="256.0" layoutY="261.0" mnemonicParsing="false" onAction="#okBtnAction" prefHeight="25.0" prefWidth="76.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="userName" layoutX="218.0" layoutY="156.0" prefHeight="38.0" prefWidth="149.0" promptText="Username" style="-fx-background-color: #04171F; -fx-border-color: #ECECEB; -fx-border-width: 0 0 1;">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="172.0" layoutY="48.0" text="Easy Order" textAlignment="CENTER" textFill="#a4b0b5">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+      <TextField fx:id="passInput" layoutX="219.0" layoutY="210.0" prefHeight="31.0" prefWidth="149.0" promptText="Password" style="-fx-background-color: #04171F; -fx-border-color: #ECECEB; -fx-border-width: 0 0 1;">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
